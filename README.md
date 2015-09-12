@@ -5,7 +5,7 @@ It all runs a simple server.js file that sets up an Express server for developme
 
 ## Work in Progress
 
-This project is in active development and will continue to be refined as needs arise. Not that it's < 1.x.x in its versioning. 
+This project is in active development and will continue to be refined as needs arise. Note that it's < 1.x.x in its versioning. 
 
 ## Installation
 
