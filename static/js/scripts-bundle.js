@@ -17,6 +17,7 @@ module.exports = React.createClass({
         );
     }
 });
+
 },{"react":"react"}],2:[function(require,module,exports){
 'use strict';
 
@@ -36,12 +37,14 @@ module.exports = React.createClass({
         );
     }
 });
+
 },{"./demoChild.jsx":1,"react":"react"}],3:[function(require,module,exports){
 var 
     React = require('react'),
     DemoScript = require('./demoScript.jsx');
 
 React.render(React.createElement(DemoScript, null), document.body);
+
 },{"./demoScript.jsx":2,"react":"react"}]},{},[3])
 
 

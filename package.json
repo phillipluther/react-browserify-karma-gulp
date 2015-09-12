@@ -1,10 +1,11 @@
 {
   "name": "react-browserify-karma-gulp",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "A simple boilerplate for setting up projects using React, Broswerify, Karma and Less with Gulp as a task runner.",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "start": "node server.js"
   },
   "keywords": [
     "gulp",
@@ -27,12 +28,12 @@
     "gulp-if": "^1.2.5",
     "gulp-karma": "0.0.4",
     "gulp-less": "^3.0.3",
+    "gulp-livereload": "~3.8.0",
     "gulp-minify-css": "^1.2.1",
     "gulp-shell": "^0.4.3",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^1.4.0",
     "jasmine-core": "^2.3.4",
-    "karma": "^0.13.9",
     "karma-browserify": "^4.3.0",
     "karma-jasmine": "^0.3.6",
     "karma-phantomjs-launcher": "^0.2.1",
@@ -41,10 +42,18 @@
     "react": "^0.13.3",
     "reactify": "^1.1.1",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "karma": "~0.12.37"
   },
   "dependencies": {
     "express": "^4.13.3",
     "fs": "0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phillipluther/react-browserify-karma-gulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phillipluther/react-browserify-karma-gulp/issues"
   }
 }

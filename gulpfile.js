@@ -235,6 +235,12 @@ gulp.task('build:dev', [
     'scripts:libs'
 ]);
 
+gulp.task('build:prod', [
+    'styles:prod',
+    'scripts:prod',
+    'scripts:libs'
+]);
+
 gulp.task('server', ['build:dev', 'watch'], shell.task([
     'node server.js'
 ]));
